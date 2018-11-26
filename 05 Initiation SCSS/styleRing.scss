@@ -1,0 +1,32 @@
+$ratio: 0.07;
+
+@mixin ring($size, $color) {
+  display: block;
+  border-radius: 100px;
+  margin: 1em;
+  width: #{$size}px;
+  height: #{$size}px;
+  border: #{$size*$ratio}px solid $color;
+  box-shadow : #{$size*$ratio}px #{$size*$ratio}px #{$size*$ratio}px lighten($color, 20);
+}
+
+#ring1 {
+  @include ring(50, orange);
+}
+
+#ring2 {
+  @include ring(100, yellow);
+}
+
+#conteneur {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@for $i from 1 through 6 {
+  .element#{$i} {
+    margin-left: $i/2 * -0.5rem;
+    @include ring(40*$i/2, black);
+  }
+}
