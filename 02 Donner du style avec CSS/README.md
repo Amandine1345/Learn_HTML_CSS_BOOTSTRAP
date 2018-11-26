@@ -12,4 +12,4 @@ Au survol du portrait, ces éléments devront être masqués ou s'écarter.
 * Sublime Text
 
 
-![Résultat en image](https://drive.google.com/open?id=1q5GH73nYwsZWLNTzRclNsMzdSarftSNw)
+![Résultat en image](https://drive.google.com/uc?export=view&id=1q5GH73nYwsZWLNTzRclNsMzdSarftSNw)

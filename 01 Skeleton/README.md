@@ -3,7 +3,7 @@
 D'après une maquette fournie, création des différentes parties du site findThePrecious.com.
 
 ## Langages
-    * HTML 5
+* HTML 5
     
 ### Réalisé avec
-    * SublimeText
+* Sublime Text
