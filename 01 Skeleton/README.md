@@ -5,5 +5,5 @@ D'après une maquette fournie, création des différentes parties du site findTh
 ## Langages
     * HTML 5
     
-### Réaliser avec
+### Réalisé avec
     * SublimeText
